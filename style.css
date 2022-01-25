@@ -85,3 +85,19 @@ section {
   text-align: center;
   line-height: 24px;
 }
+
+#social-media {
+  margin-top: 55px;
+  flex-direction: row;
+  gap: 30px;
+  transition: 0.3s;
+}
+
+#social-media img {
+  cursor: pointer;
+}
+
+#social-media img:hover {
+  transform: scale(1.07);
+  filter: brightness(0.7);
+}
